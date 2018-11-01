@@ -27,6 +27,13 @@ Constraints:
 * Relies on the `FocusGained` event.  If your terminal doesn't report focus events, either use something like [Terminus][] or set `let g:gitgutter_terminal_reports_focus=0`.
 
 
+### Differences between airblade/vim-gitgutter
+A new variable was added to suppress gitgutter's warning messages:
+
+```
+let g:gitgutter_suppress_warnings = 1
+```
+
 ### Screenshot
 
 ![screenshot](https://raw.github.com/airblade/vim-gitgutter/master/screenshot.png)
